@@ -1,0 +1,8 @@
+.card_div{
+    top: 45px;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #FF0000;
+    cursor: pointer;
+}
