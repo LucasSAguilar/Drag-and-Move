@@ -1,8 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+body {
+    background-image: linear-gradient(#1b1a1a, #0e0d0d);
+    height: 100vh;
+    overflow: hidden;
+    font-size: 1px;
+}
+
 .card_div{
-    top: 45px;
+    z-index: 0;
     position: absolute;
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
     background-color: #FF0000;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+    left: 5%;
+    top: 40%;
+    z-index: 1;
+    font-size: 0.8rem;
+
+}
+
+
+.title-page {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-size: 1.4rem;
+}
+
+.element-selected {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.lugar_correto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    max-width: 200px;
+    background-color: #04c48a;
+    z-index: 0;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 15px;
+    }
 }
