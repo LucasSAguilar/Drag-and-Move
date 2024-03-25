@@ -1,0 +1,17 @@
+# Projeto *Drag and Drop*
+
+Esse é um projeto da minha lista de coisinhas para estudar esse ano. O principal intuito é revisar os EventListeners, no caso a questão de reposicionar um elemento e a página reagir a isso!
+
+Para testar basta entrar no link:
+
+    https://lucassaguilar.github.io/Drag-and-Move/
+
+Para clonar o repositório basta usar o seguinte comando no seu terminal:
+	
+
+ - Primeiro crie uma pasta para colocar o projeto; 
+ - Abra o terminal nessa pasta e digite:
+
+    git clone https://github.com/LucasSAguilar/Drag-and-Move.git
+
+Agradeço a leitura! =D
